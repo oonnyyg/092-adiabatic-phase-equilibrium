@@ -1,0 +1,51 @@
+{
+  "experiments": [
+    {
+      "id": "wax-into-water",
+      "materials": [
+        {
+          "id": "water",
+          "mass_kg": 2.0,
+          "cp_solid": 2108.0,
+          "cp_liquid": 4184.0,
+          "melting_point_c": 0.0,
+          "latent_heat": 334000.0,
+          "initial_temp_c": 25.0
+        },
+        {
+          "id": "wax",
+          "mass_kg": 0.5,
+          "cp_solid": 2500.0,
+          "cp_liquid": 2900.0,
+          "melting_point_c": 60.0,
+          "latent_heat": 200000.0,
+          "initial_temp_c": 60.0,
+          "initial_liquid_fraction": 1.0
+        }
+      ]
+    },
+    {
+      "id": "ice-in-brine",
+      "materials": [
+        {
+          "id": "ice",
+          "mass_kg": 0.3,
+          "cp_solid": 2108.0,
+          "cp_liquid": 4184.0,
+          "melting_point_c": 0.0,
+          "latent_heat": 334000.0,
+          "initial_temp_c": -15.0
+        },
+        {
+          "id": "brine",
+          "mass_kg": 1.0,
+          "cp_solid": 3000.0,
+          "cp_liquid": 3400.0,
+          "melting_point_c": -21.0,
+          "latent_heat": 250000.0,
+          "initial_temp_c": 20.0
+        }
+      ]
+    }
+  ]
+}
