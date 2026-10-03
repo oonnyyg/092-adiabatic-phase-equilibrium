@@ -1,0 +1,5 @@
+experiment_id,material_id,mass_kg,initial_temp_C,initial_liquid_fraction,final_temp_C,final_liquid_fraction,initial_enthalpy_J,final_enthalpy_J,net_heat_J
+mix-1,water,1.0,25.0,,28.861003861003862,1.0,438500.0,454638.99613899615,16138.996138996154
+mix-1,wax,0.5,45.0,0.0,28.861003861003862,0.0,0.0,-16138.996138996137,-16138.996138996137
+mix-2,hot-liquid,1.0,12.0,,10.0,1.0,148.0,140.0,-8.0
+mix-2,cold-solid,1.0,10.0,0.0,10.0,0.016,0.0,8.0,8.0

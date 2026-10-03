@@ -1,0 +1,70 @@
+{
+  "experiments": [
+    {
+      "experiment_id": "mix-1",
+      "equilibrium_temp_C": 28.861003861003862,
+      "total_initial_enthalpy_J": 438500.0,
+      "total_final_enthalpy_J": 438500.0,
+      "enthalpy_residual_J": 0.0,
+      "materials": [
+        {
+          "experiment_id": "mix-1",
+          "material_id": "water",
+          "mass_kg": 1.0,
+          "initial_temp_C": 25.0,
+          "initial_liquid_fraction": null,
+          "final_temp_C": 28.861003861003862,
+          "final_liquid_fraction": 1.0,
+          "initial_enthalpy_J": 438500.0,
+          "final_enthalpy_J": 454638.99613899615,
+          "net_heat_J": 16138.996138996154
+        },
+        {
+          "experiment_id": "mix-1",
+          "material_id": "wax",
+          "mass_kg": 0.5,
+          "initial_temp_C": 45.0,
+          "initial_liquid_fraction": 0.0,
+          "final_temp_C": 28.861003861003862,
+          "final_liquid_fraction": 0.0,
+          "initial_enthalpy_J": 0.0,
+          "final_enthalpy_J": -16138.996138996137,
+          "net_heat_J": -16138.996138996137
+        }
+      ]
+    },
+    {
+      "experiment_id": "mix-2",
+      "equilibrium_temp_C": 10.0,
+      "total_initial_enthalpy_J": 148.0,
+      "total_final_enthalpy_J": 148.0,
+      "enthalpy_residual_J": 0.0,
+      "materials": [
+        {
+          "experiment_id": "mix-2",
+          "material_id": "hot-liquid",
+          "mass_kg": 1.0,
+          "initial_temp_C": 12.0,
+          "initial_liquid_fraction": null,
+          "final_temp_C": 10.0,
+          "final_liquid_fraction": 1.0,
+          "initial_enthalpy_J": 148.0,
+          "final_enthalpy_J": 140.0,
+          "net_heat_J": -8.0
+        },
+        {
+          "experiment_id": "mix-2",
+          "material_id": "cold-solid",
+          "mass_kg": 1.0,
+          "initial_temp_C": 10.0,
+          "initial_liquid_fraction": 0.0,
+          "final_temp_C": 10.0,
+          "final_liquid_fraction": 0.016,
+          "initial_enthalpy_J": 0.0,
+          "final_enthalpy_J": 8.0,
+          "net_heat_J": 8.0
+        }
+      ]
+    }
+  ]
+}

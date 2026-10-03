@@ -1,0 +1,52 @@
+{
+  "experiments": [
+    {
+      "id": "mix-1",
+      "materials": [
+        {
+          "id": "water",
+          "mass": 1.0,
+          "cp_solid": 2100.0,
+          "cp_liquid": 4180.0,
+          "melt_point": 0.0,
+          "latent_heat": 334000.0,
+          "initial_temp": 25.0
+        },
+        {
+          "id": "wax",
+          "mass": 0.5,
+          "cp_solid": 2000.0,
+          "cp_liquid": 2500.0,
+          "melt_point": 45.0,
+          "latent_heat": 200000.0,
+          "initial_temp": 45.0,
+          "initial_liquid_fraction": 0.0
+        }
+      ]
+    },
+    {
+      "id": "mix-2",
+      "materials": [
+        {
+          "id": "hot-liquid",
+          "mass": 1.0,
+          "cp_solid": 2.0,
+          "cp_liquid": 4.0,
+          "melt_point": 0.0,
+          "latent_heat": 100.0,
+          "initial_temp": 12.0
+        },
+        {
+          "id": "cold-solid",
+          "mass": 1.0,
+          "cp_solid": 1.0,
+          "cp_liquid": 3.0,
+          "melt_point": 10.0,
+          "latent_heat": 500.0,
+          "initial_temp": 10.0,
+          "initial_liquid_fraction": 0.0
+        }
+      ]
+    }
+  ]
+}
